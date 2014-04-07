@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='author' content='Jacques Tardie'>
+    <meta name='description' content='Atlantic Salmon Ecosystems Forum. Connecting science with on-the-ground restoration.'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href="http://cdn.jotfor.ms/static/formCss.css?3.1.1434" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="http://cdn.jotfor.ms/css/styles/nova.css?3.1.1434" />
+    <link type="text/css" media="print" rel="stylesheet" href="http://cdn.jotfor.ms/css/printForm.css?3.1.1434" />
+
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/site.css">
+
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+    <!--[if lte IE 8]>
+      <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' />
+    <![endif]-->
+    <link rel='shortcut icon' href='/assets/img/favicon.png'>
+
+    <script type='text/javascript' src='//use.typekit.net/fms1zyz.js'></script>
+    <script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
+
+  </head>
+
+  <body>
+
+    <header>       
+    <nav>
+        <a href='/'>
+          <img src='/assets/img/salmon.svg'>
+          <h1>ASEF</h1>
+        </a>
+        <p class="tagline">Diadromous species restoration in the Northeastern United States and Canada.</p> 
+        <ul>
+          <a href="http://atlanticsalmonforum.org/#about"><li>About</li></a>
+          <a href="http://atlanticsalmonforum.org/#past"><li>Previous fora</li></a>
+          <a href="http://atlanticsalmonforum.org/#sponsors"><li>Sponsors</li></a>
+          <a class='contact' href="mailto:mark.renkawitz@noaa.gov,tara.trinko@noaa.gov,hi@jacquestardie.org"><li>Contact us</li></a>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class='content'>
+      {{ content}}
+    </div>
+
+    <!-- Mapbox.js -->
+    <script src='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+    <script type='text/javascript'>
+      var map = L.mapbox.map('map', 'jacques.map-d50mlskw');
+      // disable scroll + zoom
+      map.touchZoom.disable();
+      map.scrollWheelZoom.disable();
+    </script>
+
+
+    <!-- Gaug.es -->
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '519a282af5a1f5733d000049');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+
+  </body>
+</html>

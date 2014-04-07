@@ -1,0 +1,29 @@
+form {
+	padding: 1em;
+	background: #f6f6f6;
+}
+
+.form-line {
+	margin: 0;
+	padding-left: 0;
+	background: #f6f6f6;
+}
+
+.form-label { width:200px !important; }
+.form-label-left { width:200px !important; }
+.form-label-right { width:200px !important; }
+
+.form-all {
+  width: 690px;
+  background: #FFFFFF;
+  color: #666666 !important;
+  font-family: 'Arial';
+  font-size: 14px;
+}
+
+.form-radio-item label,
+.form-checkbox-item label, 
+.form-grading-label, 
+.form-header{
+  color:#666666;
+}

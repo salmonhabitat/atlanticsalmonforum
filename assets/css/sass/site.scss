@@ -1,0 +1,23 @@
+@import 'bourbon/bourbon';
+@import 'variables';
+@import 'layout';
+@import 'main';
+@import 'jotform';
+
+section#presentations {
+	li {
+		padding: 0 5px;
+		@include transition(0.5s);
+		&:hover {
+			background: #f6f6f6;
+			color: $color-brand;
+			@include transition(0.5s);
+			span.authors { color: $color-main; }
+		}
+		span.authors {
+			font-size: 80%;
+			display: block;
+			color: #aaa;
+		}
+	}
+}

@@ -1,0 +1,53 @@
+<section id="presentations">
+	<h2>2014 Presentations</h2>
+	<p>Many of the presentations that were given can be accessed here. <strong>Thanks again</strong> to all the presenters; we couldn't have done this without you.</p>
+
+	<h3>Session 1: Estuary and Marine Ecology</h3>
+	<ul>
+		{% for presentation in site.data.session-1 %}
+		<a href='{{ presentation.url }}'>
+			<li>
+					<span class='title'>{{ presentation.title }}</span>
+					<span class='authors'>{{ presentation.authors }}</span>
+			</li>
+		</a>
+		{% endfor %}
+	</ul>
+
+	<h3>Session II: Diadromous Species Ecology</h3>
+	<ul>
+		{% for presentation in site.data.session-2 %}
+		<a href='{{ presentation.url }}'>
+			<li>
+					<span class='title'>{{ presentation.title }}</span>
+					<span class='authors'>{{ presentation.authors }}</span>
+			</li>
+		</a>
+		{% endfor %}
+	</ul>
+
+	<h3>Session III: Freshwater Ecology</h3>
+	<ul>
+		{% for presentation in site.data.session-3 %}
+		<a href='{{ presentation.url }}'>
+			<li>
+					<span class='title'>{{ presentation.title }}</span>
+					<span class='authors'>{{ presentation.authors }}</span>
+			</li>
+		</a>
+		{% endfor %}
+	</ul>
+	
+	<h3>Session IV: Applying science to restoration</h3>
+	<ul>
+		{% for presentation in site.data.session-4 %}
+		<a href='{{ presentation.url }}'>
+			<li>
+					<span class='title'>{{ presentation.title }}</span>
+					<span class='authors'>{{ presentation.authors }}</span>
+			</li>
+		</a>
+		{% endfor %}
+	</ul>
+
+</section>

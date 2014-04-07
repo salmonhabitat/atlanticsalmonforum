@@ -1,0 +1,106 @@
+body {
+	color: $color-main;
+	font-family: $font-body;
+}
+
+a {
+	text-decoration: none;
+	color: $color-brand;
+	&:hover {
+		color: lighten($color-brand, 20%);
+	}
+	&.register {
+		color: white;
+		li { 
+			background: $color-success;
+			@include transition(background, 0.5s);
+			&:hover {
+				background: desaturate($color-success, 20%);
+				@include transition(background, 0.5s);
+			}
+		}
+	}
+	&.contact {
+		color: white;
+		li {
+			background: $color-brand;
+			@include transition(background, 0.5s);
+			&:hover {
+				background: desaturate($color-brand, 20%);
+				@include transition(background, 0.5s);
+			}
+		}
+	}
+}
+
+ul {
+	padding: 0;
+	li {
+		list-style-type: none;
+	}
+}
+
+button {
+	border: none;
+	color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav li,
+.button {
+	font-family: $font-heading;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2rem;
+	margin: 0;
+	span.tagline {
+		display: block;
+		font-size: 50%;
+		color: lighten($color-main, 10%);
+	}
+}
+
+header {
+	h1 { font-size: 3rem;}
+	nav li { font-size: 1rem; }
+}
+
+section {
+	h2 { color: darken($color-main, 10%); }
+	h3 { color: lighten($color-main, 10%); }
+}
+
+.alert { color: $color-alert; }
+
+.button {
+	background: $color-brand;
+	display: inline;
+	text-align: center;
+	padding: 5px 10px;
+	@include transition(background 0.5s ease-in);
+	&:hover {
+		background: lighten($color-brand, 20%);
+		@include transition(background 0.5s ease-out);
+	}
+	a {
+		text-transform: uppercase;
+		color: white;
+	}
+}
+
+section#schedule li {
+	font-size: 90%;
+	padding: 0 3px;
+	border-bottom: 1px solid #f3f3f3;
+	@include transition(border-bottom 0.5s ease);
+	&:hover {
+		border-bottom: 1px solid $color-brand;
+		@include transition(border-bottom 0.5s ease);
+	}
+	span.title { color: darken($color-main, 10%); }
+}
