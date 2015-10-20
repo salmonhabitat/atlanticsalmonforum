@@ -77,7 +77,8 @@ section {
 
 .alert { color: $color-alert; }
 
-.button {
+.button,
+a.button {
 	background: $color-brand;
 	display: inline;
 	text-align: center;
@@ -91,6 +92,9 @@ section {
 		text-transform: uppercase;
 		color: white;
 	}
+}
+a.button {
+	color: white;
 }
 
 section#schedule li {
