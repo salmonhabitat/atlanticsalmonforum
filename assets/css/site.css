@@ -240,10 +240,12 @@ header nav li {
 .content hr {
   border: 0;
   height: 0;
-  border-top: 1px solid #777777; }
+  border-top: 1px solid #919191; }
+.content ul {
+  margin: .5em 0 0 0; }
 .content li {
-  list-style: circle;
-  margin-left: 1em; }
+  list-style: disc;
+  margin-left: 1.5em; }
 
 section h2 {
   color: #2b2b2b; }
