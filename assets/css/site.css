@@ -19,7 +19,7 @@ header {
 
 @media (max-width: 768px) {
   header {
-    background: #eeeeee;
+    background: #eee;
     border-bottom: 2px solid #f6f6f6;
     position: fixed;
     top: 0;
@@ -36,12 +36,12 @@ header {
   nav h1 {
     display: none; }
   nav a {
-    color: #666666;
+    color: #444;
     -webkit-transition: color, 0.5s;
     -moz-transition: color, 0.5s;
     transition: color, 0.5s; }
     nav a:hover {
-      color: #333333;
+      color: #111111;
       -webkit-transition: color, 0.5s;
       -moz-transition: color, 0.5s;
       transition: color, 0.5s; }
@@ -69,7 +69,7 @@ header {
 
   section {
     padding: 2em 0;
-    border-bottom: 2px dotted #eeeeee; }
+    border-bottom: 2px dotted #eee; }
 
   #sponsors li {
     margin: 0; }
@@ -123,7 +123,7 @@ header {
   section {
     padding: 1em; }
     section h2 {
-      border-bottom: 2px solid #eeeeee; }
+      border-bottom: 2px solid #eee; }
 
   aside {
     display: inline-block;
@@ -172,7 +172,7 @@ header {
     width: 49%;
     padding-right: 3em; } }
 body {
-  color: #666666;
+  color: #444;
   font-family: ff-tisa-web-pro; }
 
 a {
@@ -229,19 +229,22 @@ h2 {
   h2 span.tagline {
     display: block;
     font-size: 50%;
-    color: gray; }
+    color: #5e5e5e; }
 
 header h1, header .h1 {
   font-size: 3rem;
   font-family: aw-conqueror-carved-one; }
-
 header nav li {
   font-size: 1rem; }
 
+.content hr {
+  border: none;
+  color: #5e5e5e; }
+
 section h2 {
-  color: #4d4d4d; }
+  color: #2b2b2b; }
 section h3 {
-  color: gray; }
+  color: #5e5e5e; }
 
 .alert {
   color: #e76f5c; }
@@ -282,7 +285,7 @@ section#schedule li {
     -moz-transition: border-bottom 0.5s ease;
     transition: border-bottom 0.5s ease; }
   section#schedule li span.title {
-    color: #4d4d4d; }
+    color: #2b2b2b; }
 
 form {
   padding: 1em;
@@ -327,7 +330,7 @@ section#presentations li {
     -moz-transition: 0.5s;
     transition: 0.5s; }
     section#presentations li:hover span.authors {
-      color: #666666; }
+      color: #444; }
   section#presentations li span.authors {
     font-size: 80%;
     display: block;
