@@ -17,6 +17,14 @@ header {
   padding-right: 1em;
   font-family: aw-conqueror-carved-one; }
 
+.sponsors img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 200px;
+  float: left;
+  margin: 0 1em 0 0; }
+
 @media (max-width: 768px) {
   header {
     background: #eee;
@@ -71,13 +79,13 @@ header {
     padding: 2em 0;
     border-bottom: 2px dotted #eee; }
 
-  #sponsors li {
-    margin: 0; }
-    #sponsors li h3 {
-      margin: 0; }
-    #sponsors li img {
-      display: none; }
-
+  /*
+  	#sponsors li {
+  		margin: 0;
+  		h3 { margin: 0; }
+  		img { display: none; }
+  	}
+  */
   section#schedule li span.author {
     display: none; }
   section#schedule li span.time,
@@ -138,18 +146,19 @@ header {
     margin: 1em 0 0 0;
     padding: 0; }
 
-  #sponsors li {
-    display: inline-block;
-    width: 24%;
-    padding: 0 2%;
-    vertical-align: middle; }
-    #sponsors li h3 {
-      display: none; }
-    #sponsors li img {
-      width: 100%; }
-  #sponsors ul.sponsors {
-    margin: 2em 0; }
-
+  /*
+  	#sponsors {
+  		li {
+  			display: inline-block;
+  			width: 24%;
+  			padding: 0 2%;
+  			vertical-align: middle;
+  			h3 { display: none; }
+  			img { width: 100%; }
+  		}
+  		ul.sponsors { margin: 2em 0; }
+  	}
+  */
   section#schedule li span.time, section#schedule li span.title, section#schedule li span.author {
     display: inline-block;
     vertical-align: top; }
@@ -195,6 +204,7 @@ a {
   a.contact {
     color: white; }
     a.contact li {
+      margin: 2em auto 0;
       background: #5692f7;
       -webkit-transition: background, 0.5s;
       -moz-transition: background, 0.5s;
@@ -231,22 +241,24 @@ h2 {
     font-size: 50%;
     color: #5e5e5e; }
 
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #eee;
+  margin: 1em 0 0 0; }
+
 header h1, header .h1 {
   font-size: 3rem;
   font-family: aw-conqueror-carved-one; }
 header nav li {
   font-size: 1rem; }
 
-.content hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid #eee;
-  margin: 1em 0 0 0; }
-.content ul {
-  margin: 0; }
 .content li {
   list-style: disc;
   margin-left: 1.5em; }
+.content p {
+  max-width: 44em;
+  text-align: justify; }
 
 section h2 {
   color: #2b2b2b; }
