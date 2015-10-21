@@ -250,20 +250,23 @@ a.button {
   display: inline;
   text-align: center;
   padding: 5px 10px;
-  -webkit-transition: background 0.5s ease-in;
-  -moz-transition: background 0.5s ease-in;
-  transition: background 0.5s ease-in; }
-  .button:hover {
-    background: #b7d1fc;
-    -webkit-transition: background 0.5s ease-out;
-    -moz-transition: background 0.5s ease-out;
-    transition: background 0.5s ease-out; }
-  .button a {
+  -webkit-transition: background 0.3s ease-in;
+  -moz-transition: background 0.3s ease-in;
+  transition: background 0.3s ease-in; }
+  .button:hover,
+  a.button:hover {
+    background: #2573f5;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out; }
+  .button a,
+  a.button a {
     text-transform: uppercase;
     color: white; }
+
 a.button {
-  color: white;
-}
+  color: white; }
+
 section#schedule li {
   font-size: 90%;
   padding: 0 3px;
