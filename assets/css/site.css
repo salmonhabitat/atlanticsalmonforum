@@ -11,14 +11,23 @@
 header {
   padding: 2em; }
 
+footer {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1em; }
+
 #past li {
   font-size: 1.17rem;
   display: inline;
   padding-right: 1em;
   font-family: aw-conqueror-carved-one; }
 
+.sponsors li {
+  overflow: auto;
+  list-style: none;
+  padding: .5em;
+  border-bottom: 1px solid #eee; }
 .sponsors img {
-  width: 100%;
+  display: inline-block;
   height: auto;
   max-width: 300px;
   max-height: 200px;
@@ -273,6 +282,7 @@ a.button {
   background: #5692f7;
   display: inline;
   text-align: center;
+  margin: auto 1em;
   padding: 5px 10px;
   -webkit-transition: background 0.3s ease-in;
   -moz-transition: background 0.3s ease-in;
