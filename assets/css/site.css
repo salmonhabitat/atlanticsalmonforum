@@ -12,7 +12,7 @@ header {
   padding: 2em; }
 
 footer {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   padding: 1em;
   text-align: center; }
 
@@ -263,12 +263,14 @@ header h1, header .h1 {
 header nav li {
   font-size: 1rem; }
 
-.content li {
-  list-style: disc;
-  margin-left: 1.5em; }
-.content p {
-  max-width: 44em;
-  text-align: justify; }
+.content {
+  min-height: 93vh; }
+  .content li {
+    list-style: disc;
+    margin-left: 1.5em; }
+  .content p {
+    max-width: 44em;
+    text-align: justify; }
 
 section h2 {
   color: #2b2b2b; }
