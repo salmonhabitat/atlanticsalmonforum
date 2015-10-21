@@ -231,8 +231,9 @@ h2 {
     font-size: 50%;
     color: gray; }
 
-header h1 {
+header h1, header .h1 {
   font-size: 3rem; }
+
 header nav li {
   font-size: 1rem; }
 
