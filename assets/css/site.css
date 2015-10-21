@@ -179,7 +179,7 @@ a {
   text-decoration: none;
   color: #5692f7; }
   a:hover {
-    color: #b7d1fc; }
+    color: #2573f5; }
   a.register {
     color: white; }
     a.register li {
@@ -240,7 +240,7 @@ header nav li {
 .content hr {
   border: 0;
   height: 0;
-  border-top: 1px solid #c4c4c4;
+  border-top: 1px solid #eee;
   margin: 1em 0 0 0; }
 .content ul {
   margin: 0; }
