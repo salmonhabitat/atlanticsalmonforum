@@ -232,7 +232,8 @@ h2 {
     color: gray; }
 
 header h1, header .h1 {
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: aw-conqueror-carved-one; }
 
 header nav li {
   font-size: 1rem; }
