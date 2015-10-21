@@ -12,8 +12,9 @@ header {
   padding: 2em; }
 
 footer {
-  background: rgba(0, 0, 0, 0.3);
-  padding: 1em; }
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1em;
+  text-align: center; }
 
 #past li {
   font-size: 1.17rem;
@@ -181,7 +182,7 @@ footer {
   header {
     width: 33%; }
 
-  .content {
+  .content, footer {
     margin-left: 33%; }
 
   aside {
