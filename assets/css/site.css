@@ -238,8 +238,12 @@ header nav li {
   font-size: 1rem; }
 
 .content hr {
-  border: none;
-  color: #5e5e5e; }
+  border: 0;
+  height: 0;
+  border-top: 1px solid #777777; }
+.content li {
+  list-style: circle;
+  margin-left: 1em; }
 
 section h2 {
   color: #2b2b2b; }
