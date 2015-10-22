@@ -30,9 +30,12 @@ footer {
   border-bottom: 1px solid #eee;
   text-align: center;
   min-width: 250px; }
+.sponsors h3 {
+  text-transform: none;
+  color: #5692f7; }
 .sponsors img {
   height: auto;
-  max-width: 300px;
+  max-width: 250px;
   max-height: 200px;
   margin: 0 1em 0 0; }
 
