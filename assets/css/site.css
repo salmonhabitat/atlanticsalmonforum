@@ -23,16 +23,17 @@ footer {
   font-family: aw-conqueror-carved-one; }
 
 .sponsors li {
+  display: inline-block;
   overflow: auto;
   list-style: none;
   padding: .5em;
-  border-bottom: 1px solid #eee; }
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  min-width: 250px; }
 .sponsors img {
-  display: inline-block;
   height: auto;
   max-width: 300px;
   max-height: 200px;
-  float: left;
   margin: 0 1em 0 0; }
 
 @media (max-width: 768px) {
