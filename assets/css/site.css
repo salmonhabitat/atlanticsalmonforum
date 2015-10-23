@@ -23,8 +23,7 @@ nav {
   background: rgba(0, 0, 0, 0.4);
   color: white; }
   nav a {
-    color: #f6f6f6;
-    padding: .5em; }
+    color: #f6f6f6; }
     nav a:hover {
       color: white; }
   nav li {
