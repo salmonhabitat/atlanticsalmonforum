@@ -11,24 +11,24 @@
 header {
   top: 0;
   z-index: 9999;
-  padding: 2em;
+  padding: 1em;
   background-color: #eee;
   border-bottom: 2px solid #f6f6f6;
   background: url(/assets/img/bg-2016.jpg);
   background-size: cover; }
 
 nav {
-  width: 90%;
   padding: 1em;
   text-align: center;
   background: rgba(0, 0, 0, 0.4);
   color: white; }
   nav a {
-    color: #f6f6f6; }
+    color: #f6f6f6;
+    padding: .5em; }
     nav a:hover {
       color: white; }
   nav li {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     -webkit-transition: background 0.3s ease-in;
     -moz-transition: background 0.3s ease-in;
     transition: background 0.3s ease-in; }
@@ -101,10 +101,10 @@ footer {
     */ }
     nav a.register li {
       background: inherit;
-      color: #9bca57; }
+      color: #81c784; }
       nav a.register li:hover {
         background: inherit;
-        color: #9fe041; }
+        color: #6fd973; }
   nav p {
     display: none; }
   nav img {
@@ -193,12 +193,12 @@ a {
   a.register {
     color: white; }
     a.register li {
-      background: #9bca57;
+      background: #81c784;
       -webkit-transition: background, 0.5s;
       -moz-transition: background, 0.5s;
       transition: background, 0.5s; }
       a.register li:hover {
-        background: #97b46d;
+        background: #93b595;
         -webkit-transition: background, 0.5s;
         -moz-transition: background, 0.5s;
         transition: background, 0.5s; }

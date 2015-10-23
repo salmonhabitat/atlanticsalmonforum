@@ -9,7 +9,7 @@
 header {
 	top: 0;
 	z-index: 9999;
-	padding: 2em;
+	padding: 1em;
 	background-color: $color-structure;
 	border-bottom: 2px solid #f6f6f6;
 	background: url(/assets/img/bg-2016.jpg);
@@ -17,17 +17,18 @@ header {
 }
 
 nav {
-	width: 90%;
+	//width: 90%;
 	padding: 1em;
 	text-align: center;
 	background: rgba(0,0,0,0.4);
 	color: white;
 	a {
 		color: #f6f6f6;
+		padding: .5em;
 		&:hover { color: white; }
 	}
 	li {
-		border-bottom: 1px solid rgba(0,0,0,.5);
+		border-bottom: 1px solid rgba(0,0,0,.3);
 		@include transition(background 0.3s ease-in);
 		&:hover {
 			background: rgba(0,0,0,0.5);
@@ -159,7 +160,6 @@ footer {
 		padding: 3em 2em 2em;
 
 	}
-
 
 	.content {
 		padding-left: 1em;
