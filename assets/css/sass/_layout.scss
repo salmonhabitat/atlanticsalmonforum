@@ -29,6 +29,8 @@ nav {
 	}
 	li {
 		border-bottom: 1px solid rgba(0,0,0,.3);
+		max-width: 16em;
+		margin: 0 auto;
 		@include transition(background 0.3s ease-in);
 		&:hover {
 			background: rgba(0,0,0,0.5);
@@ -103,24 +105,20 @@ footer {
 					}
 				}
 			}
-/*
-			color: $color-main;
-			@include transition(color, 0.5s);
-			&:hover { 
-				color: darken($color-main, 20%); 
-				@include transition(color, 0.5s);
-			}
 			&.contact {
 				li {
+					margin: 2em auto 0;
+
+/*
 					background: inherit;
 					color: $color-brand;
 					&:hover {
 						background: inherit;
 						color: saturate($color-brand, 20%);
 					}
+*/
 				}
 			}
-*/
 		}
 		p { display: none; }
 		img { display: inline; }

@@ -23,7 +23,6 @@ a {
 	&.contact {
 		color: white;
 		li {
-			margin: 2em auto 0;
 			background: $color-brand;
 			@include transition(background, 0.5s);
 			&:hover {
