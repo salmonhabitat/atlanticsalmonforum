@@ -7,25 +7,58 @@
 }
 
 header {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
 	padding: 2em;
+	background-image: url(/assets/img/bg-2016.jpg);
+	background-size: cover;
+	background: $color-structure;
+	border-bottom: 2px solid #f6f6f6;
 }
 
+footer {
+	background: rgba(0,0,0,.5);
+	padding: 1em;
+	text-align: center;
+}
 #past li {
 	font-size: 1.17rem;
 	display: inline;
 	padding-right: 1em;
 	font-family: $font-heading;
 }
+.sponsors {
+	li {
+		display: inline-block;
+		overflow: auto;
+		list-style: none;
+		padding: .5em;
+		border-bottom: 1px solid $color-structure;
+		text-align: center;
+		min-width: 250px;
+		min-height: 250px;
+	}
+	a {
+		text-transform: none;
+	}
+	h3 {
+		color: $color-brand;
+	}
+	img {
+		//display: inline-block;
+		height: auto;
+		max-width: 250px;
+		max-height: 200px;
+		//float: left;
+		margin: 0 1em 0 0; 
+	}
+}
+
 
 @media (max-width: 768px) {
 
 	header { 
-		background: $color-structure;
-		border-bottom: 2px solid #f6f6f6;
-		position: fixed;
-		top: 0;
-		height: 150px;
-		z-index: 9999;
 	}
 
 	.content {
@@ -80,11 +113,13 @@ header {
 		border-bottom: 2px dotted $color-structure;
 	}
 
+/*
 	#sponsors li {
 		margin: 0;
 		h3 { margin: 0; }
 		img { display: none; }
 	}
+*/
 
 	section#schedule li {
 		span.author { display: none; }
@@ -157,6 +192,7 @@ header {
 		padding: 0;
 	}
 
+/*
 	#sponsors {
 		li {
 			display: inline-block;
@@ -168,6 +204,7 @@ header {
 		}
 		ul.sponsors { margin: 2em 0; }
 	}
+*/
 
 	section#schedule li {
 		span.time, span.title, span.author {
@@ -184,7 +221,7 @@ header {
 @media (min-width: 1120px) {
 
 	header { width: 33%; }
-	.content { margin-left: 33%; }
+	.content, footer { margin-left: 33%; }
 
 	aside {
 		display: inline-block;

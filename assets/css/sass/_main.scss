@@ -7,7 +7,7 @@ a {
 	text-decoration: none;
 	color: $color-brand;
 	&:hover {
-		color: lighten($color-brand, 20%);
+		color: darken($color-brand, 10%);
 	}
 	&.register {
 		color: white;
@@ -23,6 +23,7 @@ a {
 	&.contact {
 		color: white;
 		li {
+			margin: 2em auto 0;
 			background: $color-brand;
 			@include transition(background, 0.5s);
 			&:hover {
@@ -64,12 +65,35 @@ h2 {
 		color: lighten($color-main, 10%);
 	}
 }
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid $color-structure;
+	margin: 1em 0 0 0;
+}
 
 header {
-	h1 { font-size: 3rem;}
+	h1, .h1 { 
+		font-size: 3rem;
+		font-family: $font-heading;
+	}
 	nav li { font-size: 1rem; }
 }
 
+.content {
+	min-height: 93vh;
+	ul {
+		//margin: 0;
+	}
+	li {
+		list-style: disc;
+		margin-left: 1.5em;
+	}
+	p {
+		max-width: 44em;
+		text-align: justify;
+	}
+}
 section {
 	h2 { color: darken($color-main, 10%); }
 	h3 { color: lighten($color-main, 10%); }
@@ -82,11 +106,12 @@ a.button {
 	background: $color-brand;
 	display: inline;
 	text-align: center;
+	margin: auto 1em;
 	padding: 5px 10px;
-	@include transition(background 0.5s ease-in);
+	@include transition(background 0.3s ease-in);
 	&:hover {
-		background: lighten($color-brand, 20%);
-		@include transition(background 0.5s ease-out);
+		background: darken($color-brand, 10%);
+		@include transition(background 0.3s ease-in-out);
 	}
 	a {
 		text-transform: uppercase;
