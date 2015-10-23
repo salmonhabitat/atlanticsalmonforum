@@ -28,6 +28,7 @@ nav {
     nav a:hover {
       color: white; }
   nav li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     -webkit-transition: background 0.3s ease-in;
     -moz-transition: background 0.3s ease-in;
     transition: background 0.3s ease-in; }
@@ -87,16 +88,6 @@ footer {
     				color: darken($color-main, 20%); 
     				@include transition(color, 0.5s);
     			}
-    			&.register {
-    				li {
-    					background: inherit;
-    					color: $color-success;
-    					&:hover {
-    						background: inherit;
-    						color: saturate($color-success, 20%);
-    					}
-    				}
-    			}
     			&.contact {
     				li {
     					background: inherit;
@@ -108,6 +99,12 @@ footer {
     				}
     			}
     */ }
+    nav a.register li {
+      background: inherit;
+      color: #9bca57; }
+      nav a.register li:hover {
+        background: inherit;
+        color: #9fe041; }
   nav p {
     display: none; }
   nav img {
@@ -122,13 +119,6 @@ footer {
     padding: 2em 0;
     border-bottom: 2px dotted #eee; }
 
-  /*
-  	#sponsors li {
-  		margin: 0;
-  		h3 { margin: 0; }
-  		img { display: none; }
-  	}
-  */
   section#schedule li span.author {
     display: none; }
   section#schedule li span.time,
@@ -170,19 +160,6 @@ footer {
     margin: 1em 0 0 0;
     padding: 0; }
 
-  /*
-  	#sponsors {
-  		li {
-  			display: inline-block;
-  			width: 24%;
-  			padding: 0 2%;
-  			vertical-align: middle;
-  			h3 { display: none; }
-  			img { width: 100%; }
-  		}
-  		ul.sponsors { margin: 2em 0; }
-  	}
-  */
   section#schedule li span.time, section#schedule li span.title, section#schedule li span.author {
     display: inline-block;
     vertical-align: top; }
@@ -259,6 +236,7 @@ nav li,
 
 h2 {
   font-size: 2rem;
+  line-height: 1.1em;
   margin: 0; }
   h2 span.tagline {
     display: block;

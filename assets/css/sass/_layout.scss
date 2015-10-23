@@ -27,6 +27,7 @@ nav {
 		&:hover { color: white; }
 	}
 	li {
+		border-bottom: 1px solid rgba(0,0,0,.5);
 		@include transition(background 0.3s ease-in);
 		&:hover {
 			background: rgba(0,0,0,0.5);
@@ -91,13 +92,6 @@ footer {
 	nav {
 		h1 { display: none; }
 		a {
-/*
-			color: $color-main;
-			@include transition(color, 0.5s);
-			&:hover { 
-				color: darken($color-main, 20%); 
-				@include transition(color, 0.5s);
-			}
 			&.register {
 				li {
 					background: inherit;
@@ -107,6 +101,13 @@ footer {
 						color: saturate($color-success, 20%);
 					}
 				}
+			}
+/*
+			color: $color-main;
+			@include transition(color, 0.5s);
+			&:hover { 
+				color: darken($color-main, 20%); 
+				@include transition(color, 0.5s);
 			}
 			&.contact {
 				li {
@@ -133,14 +134,6 @@ footer {
 		padding: 2em 0;
 		border-bottom: 2px dotted $color-structure;
 	}
-
-/*
-	#sponsors li {
-		margin: 0;
-		h3 { margin: 0; }
-		img { display: none; }
-	}
-*/
 
 	section#schedule li {
 		span.author { display: none; }
@@ -197,20 +190,6 @@ footer {
 		margin: 1em 0 0 0;
 		padding: 0;
 	}
-
-/*
-	#sponsors {
-		li {
-			display: inline-block;
-			width: 24%;
-			padding: 0 2%;
-			vertical-align: middle;
-			h3 { display: none; }
-			img { width: 100%; }
-		}
-		ul.sponsors { margin: 2em 0; }
-	}
-*/
 
 	section#schedule li {
 		span.time, span.title, span.author {
