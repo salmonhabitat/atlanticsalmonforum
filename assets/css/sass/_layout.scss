@@ -18,10 +18,7 @@ header {
 
 nav {
 	width: 90%;
-	margin: 0 auto;
-	margin-top: 3em;
-	padding: 2em;
-	padding-top: 3em;
+	padding: 1em;
 	text-align: center;
 	background: rgba(0,0,0,0.4);
 	color: white;
@@ -80,6 +77,7 @@ footer {
 @media (max-width: 768px) {
 
 	header { 
+		background: url("/assets/img/bg-2016.jpg") repeat scroll 0% 50% / cover;
 	}
 
 	.content {
@@ -93,6 +91,7 @@ footer {
 	nav {
 		h1 { display: none; }
 		a {
+/*
 			color: $color-main;
 			@include transition(color, 0.5s);
 			&:hover { 
@@ -119,12 +118,13 @@ footer {
 					}
 				}
 			}
+*/
 		}
 		p { display: none; }
 		img { display: inline; }
 		ul { margin: 0 auto; }
 		li {
-			display: inline;
+			display: inline-block;
 			margin-right: 0.5em;
 		}
 	}
@@ -159,6 +159,12 @@ footer {
 		height: 100%;
 		background-image: url(/assets/img/bg-2016.jpg);
 		background-size: cover;
+	}
+	
+	nav {
+		margin: 3em auto 0;
+		padding: 3em 2em 2em;
+
 	}
 
 

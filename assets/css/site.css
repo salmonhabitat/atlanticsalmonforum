@@ -19,10 +19,7 @@ header {
 
 nav {
   width: 90%;
-  margin: 0 auto;
-  margin-top: 3em;
-  padding: 2em;
-  padding-top: 3em;
+  padding: 1em;
   text-align: center;
   background: rgba(0, 0, 0, 0.4);
   color: white; }
@@ -71,6 +68,9 @@ footer {
   margin: 0 1em 0 0; }
 
 @media (max-width: 768px) {
+  header {
+    background: url("/assets/img/bg-2016.jpg") repeat scroll 0% 50%/cover; }
+
   .content {
     position: relative;
     width: 100%;
@@ -80,27 +80,34 @@ footer {
   nav h1 {
     display: none; }
   nav a {
-    color: #666;
-    -webkit-transition: color, 0.5s;
-    -moz-transition: color, 0.5s;
-    transition: color, 0.5s; }
-    nav a:hover {
-      color: #333333;
-      -webkit-transition: color, 0.5s;
-      -moz-transition: color, 0.5s;
-      transition: color, 0.5s; }
-    nav a.register li {
-      background: inherit;
-      color: #9bca57; }
-      nav a.register li:hover {
-        background: inherit;
-        color: #9fe041; }
-    nav a.contact li {
-      background: inherit;
-      color: #5692f7; }
-      nav a.contact li:hover {
-        background: inherit;
-        color: #4e90ff; }
+    /*
+    			color: $color-main;
+    			@include transition(color, 0.5s);
+    			&:hover { 
+    				color: darken($color-main, 20%); 
+    				@include transition(color, 0.5s);
+    			}
+    			&.register {
+    				li {
+    					background: inherit;
+    					color: $color-success;
+    					&:hover {
+    						background: inherit;
+    						color: saturate($color-success, 20%);
+    					}
+    				}
+    			}
+    			&.contact {
+    				li {
+    					background: inherit;
+    					color: $color-brand;
+    					&:hover {
+    						background: inherit;
+    						color: saturate($color-brand, 20%);
+    					}
+    				}
+    			}
+    */ }
   nav p {
     display: none; }
   nav img {
@@ -108,7 +115,7 @@ footer {
   nav ul {
     margin: 0 auto; }
   nav li {
-    display: inline;
+    display: inline-block;
     margin-right: 0.5em; }
 
   section {
@@ -134,6 +141,10 @@ footer {
     height: 100%;
     background-image: url(/assets/img/bg-2016.jpg);
     background-size: cover; }
+
+  nav {
+    margin: 3em auto 0;
+    padding: 3em 2em 2em; }
 
   .content {
     padding-left: 1em;
