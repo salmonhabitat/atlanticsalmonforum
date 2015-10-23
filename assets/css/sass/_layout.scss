@@ -161,7 +161,7 @@ footer {
 	}
 
 	section {
-		padding: 1em;
+		padding: 0 1em;
 		h2 {
 			border-bottom: 2px solid $color-structure;
 		}
@@ -208,7 +208,7 @@ footer {
 	}
 	
 	nav {			
-		&.contact {
+		a.contact {
 			li {
 				margin: 2em auto 0;
 			}

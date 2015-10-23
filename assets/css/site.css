@@ -134,7 +134,7 @@ footer {
     margin-right: 2em; }
 
   section {
-    padding: 1em; }
+    padding: 0 1em; }
     section h2 {
       border-bottom: 2px solid #eee; }
 
@@ -173,7 +173,7 @@ footer {
     width: 49%;
     padding-right: 3em; }
 
-  nav.contact li {
+  nav a.contact li {
     margin: 2em auto 0; } }
 body {
   color: #666;
