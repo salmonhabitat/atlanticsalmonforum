@@ -7,14 +7,13 @@
 }
 
 header {
-	position: fixed;
 	top: 0;
 	z-index: 9999;
 	padding: 2em;
-	background-image: url(/assets/img/bg-2016.jpg);
-	background-size: cover;
-	background: $color-structure;
+	background-color: $color-structure;
 	border-bottom: 2px solid #f6f6f6;
+	background: url(/assets/img/bg-2016.jpg);
+	background-size: cover;
 }
 
 nav {
@@ -88,7 +87,7 @@ footer {
 		width: 100%;
 		margin: 0 auto;
 		padding: 1em;
-		top: 150px;
+		//top: 150px;
 	}
 
 	nav {
