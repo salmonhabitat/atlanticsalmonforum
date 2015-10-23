@@ -28,8 +28,6 @@ nav {
       color: white; }
   nav li {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    max-width: 16em;
-    margin: 0 auto;
     -webkit-transition: background 0.3s ease-in;
     -moz-transition: background 0.3s ease-in;
     transition: background 0.3s ease-in; }
@@ -81,22 +79,20 @@ footer {
 
   nav h1 {
     display: none; }
-  nav a.register li {
-    background: inherit;
-    color: #81c784; }
-    nav a.register li:hover {
-      background: inherit;
-      color: #6fd973; }
-  nav a.contact li {
-    margin: 2em auto 0;
+  nav a {
     /*
-    					background: inherit;
-    					color: $color-brand;
-    					&:hover {
-    						background: inherit;
-    						color: saturate($color-brand, 20%);
-    					}
+    			&.contact {
+    				li {
+    					margin: 2em auto 0;
+    				}
+    			}
     */ }
+    nav a.register li {
+      background: inherit;
+      color: #81c784; }
+      nav a.register li:hover {
+        background: inherit;
+        color: #6fd973; }
   nav p {
     display: none; }
   nav img {
@@ -127,6 +123,9 @@ footer {
   nav {
     margin: 3em auto 0;
     padding: 3em 2em 2em; }
+    nav li {
+      max-width: 16em;
+      margin: 0 auto; }
 
   .content {
     padding-left: 1em;
@@ -172,7 +171,10 @@ footer {
     display: inline-block;
     vertical-align: top;
     width: 49%;
-    padding-right: 3em; } }
+    padding-right: 3em; }
+
+  nav.contact li {
+    margin: 2em auto 0; } }
 body {
   color: #666;
   font-family: ff-tisa-web-pro; }

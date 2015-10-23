@@ -29,8 +29,6 @@ nav {
 	}
 	li {
 		border-bottom: 1px solid rgba(0,0,0,.3);
-		max-width: 16em;
-		margin: 0 auto;
 		@include transition(background 0.3s ease-in);
 		&:hover {
 			background: rgba(0,0,0,0.5);
@@ -105,20 +103,13 @@ footer {
 					}
 				}
 			}
+/*
 			&.contact {
 				li {
 					margin: 2em auto 0;
-
-/*
-					background: inherit;
-					color: $color-brand;
-					&:hover {
-						background: inherit;
-						color: saturate($color-brand, 20%);
-					}
-*/
 				}
 			}
+*/
 		}
 		p { display: none; }
 		img { display: inline; }
@@ -156,7 +147,10 @@ footer {
 	nav {
 		margin: 3em auto 0;
 		padding: 3em 2em 2em;
-
+		li {
+			max-width: 16em;
+			margin: 0 auto;			
+		}
 	}
 
 	.content {
@@ -212,4 +206,13 @@ footer {
 		width: 49%;
 		padding-right: 3em;
 	}
+	
+	nav {			
+		&.contact {
+			li {
+				margin: 2em auto 0;
+			}
+		}
+	}
+	
 }
