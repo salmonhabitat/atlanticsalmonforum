@@ -230,7 +230,7 @@ nav li,
 h2 {
   font-size: 2rem;
   line-height: 1.1em;
-  margin: 0; }
+  margin: 1em 0 .5em; }
   h2 span.tagline {
     display: block;
     font-size: 50%;
