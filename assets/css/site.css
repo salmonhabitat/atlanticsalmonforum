@@ -304,6 +304,9 @@ section#schedule li {
   section#schedule li span.title {
     color: #4d4d4d; }
 
+.paypal-form {
+  background: none; }
+
 form {
   padding: 1em;
   background: #f6f6f6; }
