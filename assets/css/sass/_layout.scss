@@ -68,13 +68,16 @@ footer {
 		color: $color-brand;
 	}
 	img {
-		//display: inline-block;
 		height: auto;
 		max-width: 250px;
 		max-height: 200px;
-		//float: left;
-		margin: 0 1em 0 0; 
 	}
+}
+
+.resources {
+	ul {
+		margin: 0;
+	}	
 }
 
 

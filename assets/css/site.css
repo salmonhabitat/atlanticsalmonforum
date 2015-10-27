@@ -66,8 +66,10 @@ footer {
   .sponsors img {
     height: auto;
     max-width: 250px;
-    max-height: 200px;
-    margin: 0 1em 0 0; }
+    max-height: 200px; }
+
+.resources ul {
+  margin: 0; }
 
 @media (max-width: 768px) {
   header {
