@@ -49,9 +49,11 @@ footer {
 	font-family: $font-heading;
 }
 .sponsors {
+	display: inline-flex;
+	flex-wrap: wrap;
 	li {
 		display: inline-block;
-		overflow: auto;
+		//overflow: auto;
 		list-style: none;
 		padding: .5em;
 		border-bottom: 1px solid $color-structure;
@@ -103,13 +105,16 @@ footer {
 					}
 				}
 			}
-/*
 			&.contact {
 				li {
-					margin: 2em auto 0;
+					background: inherit;
+					color: $color-brand;
+					&:hover {
+						background: inherit;
+						color: darken($color-brand, 10%);
+					}
 				}
 			}
-*/
 		}
 		p { display: none; }
 		img { display: inline; }
@@ -123,6 +128,9 @@ footer {
 	section {
 		padding: 2em 0;
 		border-bottom: 2px dotted $color-structure;
+		&:nth-of-type(first) {
+			padding: 0;
+		}
 	}
 
 	section#schedule li {
