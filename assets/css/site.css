@@ -305,7 +305,13 @@ section#schedule li {
     color: #4d4d4d; }
 
 .paypal-form {
-  background: none; }
+  background: none;
+  padding: 1em 0; }
+  .paypal-form .button {
+    margin: 0;
+    background-color: #81c784; }
+    .paypal-form .button:hover, .paypal-form .button:active {
+      background-color: #6fbf73; }
 
 form {
   padding: 1em;

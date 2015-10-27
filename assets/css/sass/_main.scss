@@ -138,4 +138,12 @@ section#schedule li {
 
 .paypal-form {
 	background: none;
+	padding: 1em 0;
+	.button {
+		margin: 0;
+		background-color: $color-success;
+		&:hover, &:active {
+			background-color: darken($color-success,5%);
+		}
+	}
 }
