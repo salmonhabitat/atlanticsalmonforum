@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="97px" height="36px" viewBox="0 0 97 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>Slice 1</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
-    <defs></defs>
-    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(-2.000000, -28.000000)">
-            <g id="Captions"></g>
-            <g id="Your_Icon" transform="translate(2.000000, 28.000000)" fill="#FFFFFF">
-                <path d="M0.854,5.658 C0.854,5.658 13.137,11.226 14.639,14.495 C14.639,14.495 19.234,14.672 20.03,14.495 C20.826,14.318 18.969,12.639 18.44,12.816 C17.91,12.993 20.207,10.342 23.035,13.258 C23.035,13.258 43.094,9.448 43.182,10.116 C43.182,10.116 43.446,9.105 41.414,8.133 C39.382,7.161 44.154,8.928 45.832,1.152 C45.832,1.152 42.916,-4.239 56.17,8.31 C56.17,8.31 84.447,9.194 95.14,15.91 C95.14,15.91 97.702,15.645 90.898,19.267 C90.898,19.267 97.879,18.913 96.907,19.709 C96.907,19.709 91.605,29.341 50.603,30.755 C50.603,30.755 48.925,35.084 45.566,35.173 C42.209,35.262 44.771,33.406 43.623,30.667 C43.623,30.667 35.051,30.225 32.842,27.663 C32.842,27.663 29.396,31.903 28.071,30.312 C26.745,28.721 25.42,25.01 23.564,23.243 C23.564,23.243 22.769,22.36 21.001,22.183 C19.509,22.034 16.053,22.537 14.904,22.448 C13.756,22.36 2.445,33.671 0.854,30.312 C-0.737,26.955 4.124,22.271 2.975,20.151 C2.975,20.15 -1.796,5.216 0.854,5.658 L0.854,5.658 Z M0.854,5.658" id="Shape"></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="97px" height="36px"
+	 viewBox="0 0 97 36" enable-background="new 0 0 97 36" xml:space="preserve">
+<title>Slice 1</title>
+<description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+<g id="Page_1">
+	<g id="Group" transform="translate(-2.000000, -28.000000)">
+		<g id="Captions">
+		</g>
+		<g id="Your_Icon" transform="translate(2.000000, 28.000000)">
+			<path id="Shape" fill="#2875F5" d="M0.854,5.658c0,0,12.283,5.568,13.785,8.837c0,0,4.595,0.177,5.391,0
+				c0.796-0.177-1.062-1.856-1.59-1.679c-0.53,0.177,1.767-2.474,4.595,0.442c0,0,20.059-3.81,20.147-3.142
+				c0,0,0.264-1.011-1.768-1.983c-2.032-0.972,2.74,0.795,4.418-6.981c0,0-2.916-5.391,10.338,7.158c0,0,28.277,0.884,38.971,7.6
+				c0,0,2.562-0.265-4.242,3.357c0,0,6.98-0.354,6.009,0.441c0,0-5.302,9.632-46.304,11.046c0,0-1.679,4.329-5.038,4.418
+				c-3.357,0.089-0.795-1.767-1.943-4.506c0,0-8.572-0.442-10.781-3.004c0,0-3.446,4.239-4.771,2.649
+				c-1.326-1.592-2.651-5.303-4.507-7.069c0,0-0.795-0.884-2.563-1.06c-1.492-0.149-4.948,0.354-6.097,0.265
+				c-1.148-0.089-12.459,11.223-14.05,7.864c-1.591-3.357,3.27-8.041,2.121-10.162C2.975,20.15-1.796,5.216,0.854,5.658L0.854,5.658
+				z"/>
+		</g>
+	</g>
+</g>
 </svg>
