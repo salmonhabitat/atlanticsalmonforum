@@ -1,5 +1,6 @@
 port: 4002
 pygments: true
 markdown: kramdown
+baseurl: "http://atlanticsalmonforum.org"
 gems:
   - jekyll-redirect-from
