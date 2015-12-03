@@ -1,3 +1,5 @@
 port: 4002
 pygments: true
 markdown: kramdown
+gems:
+  - jekyll-redirect-from
