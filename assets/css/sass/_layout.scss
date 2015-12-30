@@ -84,8 +84,16 @@ footer {
 }
 
 .schedule {
+	p {
+		margin: 1em 0;
+		padding: .5em .25em;
+		border-bottom: 1px solid $color-structure;
+	}
+	
 	strong {
-		padding-right: 5em;
+		margin-right: 1.5em;
+		padding: .25em;
+		background: #fafafa;
 	}
 }
 
