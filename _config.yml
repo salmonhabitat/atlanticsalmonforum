@@ -1,5 +1,5 @@
 port: 4002
-pygments: true
+pygments: rouge
 markdown: kramdown
 baseurl: "http://atlanticsalmonforum.org"
 gems:
