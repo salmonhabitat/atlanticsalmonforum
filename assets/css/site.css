@@ -90,6 +90,9 @@ footer {
     .more-info-link a:hover {
       color: #2573f5; }
 
+.align-center {
+  text-align: center; }
+
 @media (max-width: 768px) {
   header {
     background: url("/assets/img/bg-2016.jpg") repeat scroll 0% 50%/cover; }
