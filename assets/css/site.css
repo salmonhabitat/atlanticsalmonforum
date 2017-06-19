@@ -291,7 +291,7 @@ section h3 {
 .button,
 a.button {
   background: #5692f7;
-  display: inline;
+  display: inline-block;
   text-align: center;
   margin: auto 1em;
   padding: 5px 10px;
