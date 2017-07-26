@@ -93,6 +93,10 @@ footer {
 .align-center {
   text-align: center; }
 
+.float-left {
+  float: left;
+  margin: 0 1.5em 2em 0; }
+
 @media (max-width: 768px) {
   header {
     background: url("/assets/img/bg-2016.jpg") repeat scroll 0% 50%/cover; }
