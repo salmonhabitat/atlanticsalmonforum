@@ -294,6 +294,9 @@ section h2 {
 section h3 {
   color: gray; }
 
+.meeting-theme {
+  font-style: italic; }
+
 .alert {
   color: #e76f5c; }
 

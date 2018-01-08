@@ -102,6 +102,10 @@ section {
 	h3 { color: lighten($color-main, 10%); }
 }
 
+.meeting-theme {
+	font-style: italic;
+}
+
 .alert { color: $color-alert; }
 
 .button,
