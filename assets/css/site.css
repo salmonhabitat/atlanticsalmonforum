@@ -1,3 +1,7 @@
+/*
+$font-heading:		aw-conqueror-carved-one;
+$font-body:				ff-tisa-web-pro;
+*/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -46,7 +50,7 @@ footer {
   font-size: 1.17rem;
   display: inline;
   padding-right: 1em;
-  font-family: aw-conqueror-carved-one; }
+  font-family: "Montserrat", Furura, Arial, sans-serif; }
 
 .sponsors {
   display: inline-flex;
@@ -207,7 +211,7 @@ footer {
     margin: 2em auto 0; } }
 body {
   color: #666;
-  font-family: ff-tisa-web-pro; }
+  font-family: "EB Garamond", "Times New Roman", Times, serif; }
 
 a {
   text-decoration: none;
@@ -256,7 +260,7 @@ h3,
 h4,
 nav li,
 .button {
-  font-family: aw-conqueror-carved-one;
+  font-family: "Montserrat", Furura, Arial, sans-serif;
   font-weight: normal; }
 
 h2 {
@@ -276,7 +280,7 @@ hr {
 
 header h1, header .h1 {
   font-size: 3rem;
-  font-family: aw-conqueror-carved-one; }
+  font-family: "Montserrat", Furura, Arial, sans-serif; }
 header nav li {
   font-size: 1rem; }
 
