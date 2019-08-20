@@ -215,7 +215,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #5692f7; }
+  color: #5692f7;
+  transition: color .9s ease; }
   a:hover {
     color: #2573f5; }
   a.register {
@@ -285,7 +286,8 @@ header nav li {
   font-size: 1rem; }
 
 .content {
-  min-height: 93vh; }
+  min-height: 93vh;
+  font-size: 1.23em; }
   .content li {
     list-style: disc;
     margin-left: 1.5em; }
@@ -293,6 +295,8 @@ header nav li {
     max-width: 44em;
     text-align: justify; }
 
+section h1, section h2 {
+  text-transform: uppercase; }
 section h2 {
   color: #4d4d4d; }
 section h3 {
