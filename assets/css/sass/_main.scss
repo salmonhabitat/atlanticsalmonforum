@@ -81,7 +81,12 @@ header {
 		letter-spacing: .02em;
 		text-shadow: 0 0 .5em #000;
 	}
-	nav li { font-size: 1rem; }
+	nav li { 
+		font-size: 1rem;
+		padding: .5em ;
+		text-transform: uppercase;
+		letter-spacing: .15em;
+	}
 }
 
 .content {
