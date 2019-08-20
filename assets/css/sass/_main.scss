@@ -63,11 +63,6 @@ h2 {
 	font-size: 2rem;
 	line-height: 1.1em;
 	margin:1em 0 .5em;
-	span.tagline {
-		display: block;
-		font-size: 50%;
-		color: lighten($color-main, 10%);
-	}
 }
 hr {
 	border: 0;
@@ -80,6 +75,11 @@ header {
 	h1, .h1 { 
 		font-size: 3rem;
 		font-family: $font-heading;
+	}
+	.tagline {
+		font-size: 1.2em;
+		letter-spacing: .02em;
+		text-shadow: 0 0 .5em #000;
 	}
 	nav li { font-size: 1rem; }
 }

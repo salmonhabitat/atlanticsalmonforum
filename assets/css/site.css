@@ -268,10 +268,6 @@ h2 {
   font-size: 2rem;
   line-height: 1.1em;
   margin: 1em 0 .5em; }
-  h2 span.tagline {
-    display: block;
-    font-size: 50%;
-    color: gray; }
 
 hr {
   border: 0;
@@ -282,6 +278,10 @@ hr {
 header h1, header .h1 {
   font-size: 3rem;
   font-family: "Montserrat", Furura, Arial, sans-serif; }
+header .tagline {
+  font-size: 1.2em;
+  letter-spacing: .02em;
+  text-shadow: 0 0 .5em #000; }
 header nav li {
   font-size: 1rem; }
 
