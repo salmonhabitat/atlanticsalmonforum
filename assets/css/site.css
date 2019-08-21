@@ -212,7 +212,8 @@ footer {
     margin: 2em auto 0; } }
 body {
   color: #666;
-  font-family: "EB Garamond", "Times New Roman", Times, serif; }
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+  line-height: 1.5; }
 
 a {
   text-decoration: none;
@@ -280,7 +281,7 @@ header h1, header .h1 {
   font-size: 3rem;
   font-family: "Montserrat", Furura, Arial, sans-serif; }
 header .tagline {
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: .02em;
   text-shadow: 0 0 .5em #000; }
 header nav li {
