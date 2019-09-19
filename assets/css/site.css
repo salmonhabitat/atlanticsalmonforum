@@ -211,7 +211,7 @@ footer {
   nav a.contact li {
     margin: 2em auto 0; } }
 body {
-  color: #666;
+  color: #444;
   font-family: "EB Garamond", "Times New Roman", Times, serif;
   line-height: 1.5; }
 
@@ -303,9 +303,9 @@ header nav li {
 section h1, section h2 {
   text-transform: uppercase; }
 section h2 {
-  color: #4d4d4d; }
+  color: #2b2b2b; }
 section h3 {
-  color: gray; }
+  color: #5e5e5e; }
 
 .meeting-theme {
   font-style: italic; }
@@ -350,7 +350,7 @@ section#schedule li {
     -moz-transition: border-bottom 0.5s ease;
     transition: border-bottom 0.5s ease; }
   section#schedule li span.title {
-    color: #4d4d4d; }
+    color: #2b2b2b; }
 
 .paypal-form {
   background: none;
@@ -404,7 +404,7 @@ section#presentations li {
     -moz-transition: 0.5s;
     transition: 0.5s; }
     section#presentations li:hover span.authors {
-      color: #666; }
+      color: #444; }
   section#presentations li span.authors {
     font-size: 80%;
     display: block;
